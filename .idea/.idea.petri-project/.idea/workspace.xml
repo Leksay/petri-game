@@ -5,24 +5,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab593ab-79e3-43a5-b829-846176407129" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Entities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Entities/Petri.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Entities/Petri.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/PetriMovementSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/PetriMovementSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/Configuration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/Configuration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/SceneData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/SceneData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/ServiceLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/ServiceLocator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/IService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/IService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/DesktopInputService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/DesktopInputService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/IInputService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/IInputService.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.petri-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.petri-project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_Renderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/Constants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/Constants/New Text Color Gradient.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/Constants/New Text Color Gradient.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/Systems.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/Animations/Button.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/Animations/Button.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/MainMenu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/MainMenu/main menu background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/MainMenu/main menu background.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Рабочий док.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sources/Code/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sources/Code/Services/Input/IInputService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2u8j4isbTkgI8wcAxtw697dUMya" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +87,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -71,13 +129,15 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="42848">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="42848" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list />
+        <list>
+          <MonoRuntime />
+        </list>
       </option>
       <option name="selectedOptions">
         <list />
@@ -94,6 +154,8 @@
       <option name="presentableId" value="Default" />
       <updated>1741636909404</updated>
       <workItem from="1741636910971" duration="597000" />
+      <workItem from="1741723724581" duration="1592000" />
+      <workItem from="1741811786340" duration="4797000" />
     </task>
     <servers />
   </component>
@@ -109,5 +171,37 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Sources/Code/Game.cs</url>
+          <line>20</line>
+          <properties documentPath="Q:\PETRI\petri-project\petri-project\Assets\Sources\Code\Game.cs" containingFunctionPresentation="Method 'Start'">
+            <startOffsets>
+              <option value="456" />
+            </startOffsets>
+            <endOffsets>
+              <option value="457" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Sources/Code/ECS/System/PetriMovementSystem.cs</url>
+          <line>18</line>
+          <properties documentPath="Q:\PETRI\petri-project\petri-project\Assets\Sources\Code\ECS\System\PetriMovementSystem.cs" containingFunctionPresentation="Method 'Init'">
+            <startOffsets>
+              <option value="530" />
+            </startOffsets>
+            <endOffsets>
+              <option value="531" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
