@@ -1,9 +1,9 @@
-using UnityEngine;
+using Petri.Views;
 
 namespace Petri.ECS
 {
     public struct Petri
     {
-        public Transform PetriTransform;
+        public PipetteView View;
     }
 }

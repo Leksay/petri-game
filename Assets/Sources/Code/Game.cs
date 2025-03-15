@@ -2,6 +2,7 @@ using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
 using Petri.ECS;
 using Petri.Infrostructure;
+using Petri.Pools;
 using Petri.Services;
 using UnityEngine;
 
@@ -24,12 +25,17 @@ namespace Petri
             var world = new EcsWorld();
             _systems = new EcsSystems(world);
 
+            var dropPool = new DropPool(_sceneData.DropConfig, new GameObject("Drops").transform);
+            
             _systems
 #if UNITY_EDITOR
                 .Add(new Leopotam.EcsLite.UnityEditor.EcsWorldDebugSystem())
 #endif
                 .Add(new PetriMovementSystem())
-                .Inject(_sceneData)
+                .Add(new CreateDropSystem())
+                .Add(new DropFallSystem())
+                .Add(new DropLifetimeSystem())
+                .Inject(_sceneData, _sceneData.DropConfig, dropPool)
                 .Init();
         }
 

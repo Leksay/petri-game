@@ -19,7 +19,7 @@ namespace Petri.ECS
         {
             var petriId = systems.GetWorld().NewEntity();
             ref var petri = ref _petriFilter.Pools.Inc1.Add(petriId);
-            petri.PetriTransform = _sceneData.Value.PetriTransform;
+            petri.View = _sceneData.Value.PipetteView;
 
             _camera = _sceneData.Value.MainCamera;
         }
@@ -31,10 +31,10 @@ namespace Petri.ECS
             {
                 ref var petri = ref _petriFilter.Pools.Inc1.Get(entity);
                 var petriXPos = _camera.ScreenToViewportPoint(mousePosition).x;
-                petri.PetriTransform.position = _camera.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, _sceneData.Value.DistanceFromCamera));
+                petri.View.Transform.position = _camera.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, _sceneData.Value.DistanceFromCamera));
 
                 var value = Mathf.Clamp((petriXPos - 0.5f) * 2, -0.5f, 0.5f);
-                petri.PetriTransform.rotation = Quaternion.Euler(0f, 0f, -value  * 70f);
+                petri.View.Transform.rotation = Quaternion.Euler(-22.22f, 0f, -value  * 70f);
             }
         }
     }

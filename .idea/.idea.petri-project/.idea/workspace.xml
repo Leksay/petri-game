@@ -5,61 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab593ab-79e3-43a5-b829-846176407129" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Entities.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Entities/Petri.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Entities/Petri.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/PetriMovementSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/PetriMovementSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/Configuration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/Configuration.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/SceneData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/SceneData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/ServiceLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/ServiceLocator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/IService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/IService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/DesktopInputService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/DesktopInputService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/IInputService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/IInputService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Configs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Configs/BacteriasConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Configs/BacteriasConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Configs/DropConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Configs/DropConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Bacteria.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Bacteria.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Drop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Drop.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Lifetime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Lifetime.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Bacterias.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Bacterias/BacteriasInitSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Bacterias/BacteriasInitSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/CreateDropSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/CreateDropSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/DropFallSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/DropFallSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/DropLifetimeSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/DropLifetimeSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Pools.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Pools/DropPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Pools/DropPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Pools/GameObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Pools/GameObjectPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Pools/Pool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Pools/Pool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Views.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Views/DropView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Views/DropView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Views/PipetteView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Code/Views/PipetteView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.petri-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.petri-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_Renderer.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/Constants.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/Constants/New Text Color Gradient.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/Constants/New Text Color Gradient.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/Systems.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/Animations/Button.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/Animations/Button.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/MainMenu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/MainMenu/main menu background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Src/UI/MainMenu/main menu background.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Рабочий док.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Entities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Entities/Petri.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Petri.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Entities/Petri.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Petri.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/PetriMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/PetriMovementSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Code/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/SceneData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/SceneData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/DesktopInputService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/DesktopInputService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/IInputService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/IInputService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Animations/Drop.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Petri/Animations/Drop.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Animations/Pipette.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Petri/Animations/Pipette.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Models/Petri Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Petri/Models/Petri Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/FreeLabAssets/Prefabs/Pipette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/FreeLabAssets/Prefabs/Pipette.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/FreeLabAssets/Textures/Pipette_Alb.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/FreeLabAssets/Textures/Pipette_Alb.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2/LightingData.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +71,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sources/Code/Factories/Pool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sources/Code/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sources/Code/Services/Input/IInputService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@e13fb214c240/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -85,20 +84,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe" />
@@ -129,15 +129,13 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="42848">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="42848" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list>
-          <MonoRuntime />
-        </list>
+        <list />
       </option>
       <option name="selectedOptions">
         <list />
@@ -156,6 +154,10 @@
       <workItem from="1741636910971" duration="597000" />
       <workItem from="1741723724581" duration="1592000" />
       <workItem from="1741811786340" duration="4797000" />
+      <workItem from="1741893675716" duration="6908000" />
+      <workItem from="1741943835654" duration="8930000" />
+      <workItem from="1741995409439" duration="399000" />
+      <workItem from="1742022619923" duration="3199000" />
     </task>
     <servers />
   </component>
@@ -176,30 +178,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Sources/Code/Game.cs</url>
-          <line>20</line>
-          <properties documentPath="Q:\PETRI\petri-project\petri-project\Assets\Sources\Code\Game.cs" containingFunctionPresentation="Method 'Start'">
+          <url>file://$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/DropLifetimeSystem.cs</url>
+          <line>16</line>
+          <properties documentPath="Q:\PETRI\petri-project\petri-project\Assets\Sources\Code\ECS\System\DropLifetimeSystem.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="456" />
-            </startOffsets>
-            <endOffsets>
-              <option value="457" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Sources/Code/ECS/System/PetriMovementSystem.cs</url>
-          <line>18</line>
-          <properties documentPath="Q:\PETRI\petri-project\petri-project\Assets\Sources\Code\ECS\System\PetriMovementSystem.cs" containingFunctionPresentation="Method 'Init'">
-            <startOffsets>
-              <option value="530" />
+              <option value="469" />
             </startOffsets>
             <endOffsets>
               <option value="531" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
