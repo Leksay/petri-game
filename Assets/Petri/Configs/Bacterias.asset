@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38579adcceff4587b72fc79c8bfd3409, type: 3}
+  m_Name: Bacterias
+  m_EditorClassIdentifier: 
+  <Bacterias>k__BackingField:
+  - DefaultName: Red Bacteria
+    DefaultDescription: '-'
+    Type: 0
+    Icon: {fileID: 0}
+    Color: {r: 0.9150943, g: 0.2978373, b: 0.2978373, a: 0.57254905}
+    GrowthRate: 0.1
+    BaseHealth: 10
+    Speed: 0.1
+  - DefaultName: Green Bacteria
+    DefaultDescription: '-'
+    Type: 1
+    Icon: {fileID: 0}
+    Color: {r: 0.5790934, g: 0.9811321, b: 0.48593804, a: 0.57254905}
+    GrowthRate: 0.15
+    BaseHealth: 3
+    Speed: 0.05
+  - DefaultName: Blue Bacteria
+    DefaultDescription: '-'
+    Type: 2
+    Icon: {fileID: 0}
+    Color: {r: 0.29803917, g: 0.6085002, b: 0.9137255, a: 0.57254905}
+    GrowthRate: 0.05
+    BaseHealth: 25
+    Speed: 0.15
+  - DefaultName: Violet Bacteria
+    DefaultDescription: '-'
+    Type: 3
+    Icon: {fileID: 0}
+    Color: {r: 0.58942443, g: 0.29803917, b: 0.9137255, a: 0.57254905}
+    GrowthRate: 0.3
+    BaseHealth: 2
+    Speed: 0.15

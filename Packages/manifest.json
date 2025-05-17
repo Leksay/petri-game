@@ -1,11 +1,14 @@
 {
   "dependencies": {
+    "com.cysharp.r3": "https://github.com/Cysharp/R3.git?path=src/R3.Unity/Assets/R3.Unity",
+    "com.github-glitchenzo.nugetforunity": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
+    "com.jfranmora.inspector.button": "https://github.com/jfranmora/unity-inspector-button.git#upm",
     "com.leopotam.ecslite": "https://github.com/Leopotam/ecslite.git",
     "com.leopotam.ecslite.di": "https://github.com/Leopotam/ecslite-di.git",
     "com.leopotam.ecslite.extendedsystems": "https://github.com/Leopotam/ecslite-extendedsystems.git",
     "com.leopotam.ecslite.unity.ugui": "https://github.com/Leopotam/ecslite-unity-ugui.git",
-    "com.tlabaltoh.sdf-ui-toolkit": "https://github.com/TLabAltoh/Unity-SDF-UI-Toolkit.git",
     "com.leopotam.ecslite.unityeditor": "https://github.com/Leopotam/ecslite-unityeditor.git",
+    "com.tlabaltoh.sdf-ui-toolkit": "https://github.com/TLabAltoh/Unity-SDF-UI-Toolkit.git",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.7.1",
     "com.unity.editorcoroutines": "1.0.0",

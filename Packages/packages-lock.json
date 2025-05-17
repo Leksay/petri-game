@@ -1,5 +1,28 @@
 {
   "dependencies": {
+    "com.cysharp.r3": {
+      "version": "https://github.com/Cysharp/R3.git?path=src/R3.Unity/Assets/R3.Unity",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.modules.imgui": "1.0.0"
+      },
+      "hash": "6af3cc5c1941fe21bfe0fe3472f2c2dfaa881469"
+    },
+    "com.github-glitchenzo.nugetforunity": {
+      "version": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d30cb64a988ac3ecfd31bd9dc96e38422a729e47"
+    },
+    "com.jfranmora.inspector.button": {
+      "version": "https://github.com/jfranmora/unity-inspector-button.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "51d701a09ee944fb5450408aed5a557ad4121697"
+    },
     "com.leopotam.ecslite": {
       "version": "https://github.com/Leopotam/ecslite.git",
       "depth": 0,
