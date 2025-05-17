@@ -57,17 +57,26 @@ namespace Petri.UI
                 {
                     _draggingReagent = reagentView;
                     _lastHoveredFormulaCell = cell;
-                    cell.SetBackgroundColor(reagentView && CanReagentBePlacedAt(cell, reagentView) ? _availableCellColor : _normalCellColor);
+                    if (reagentView && CanReagentBePlacedAt(cell, reagentView))
+                    {
+                        cell.SetBackgroundColor(_availableCellColor);
+                    }
+                    else
+                    {
+                        cell.SetNormalColor();
+                    }
 
                     _cells[cell.CellX, cell.CellY] = cell;
                 });
 
                 cell.Cleared.Subscribe(_ =>
                 {
-                    cell.SetBackgroundColor(_normalCellColor);
+                    cell.SetNormalColor();
                     CellCleared.Execute((cell.CellX, cell.CellY));
                 });
             }
+
+            UpdateCellsColor(); 
         }
 
         [Button]
@@ -95,12 +104,16 @@ namespace Petri.UI
             _grid.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
             _grid.constraintCount = xSize;
 
+            var darkCellColor = _normalCellColor * 0.9f;
+            darkCellColor.a = 1f;
+
             #if UNITY_EDITOR
             var prefabSettings = new ConvertToPrefabInstanceSettings();
             #endif
+
             for (var x = 0; x < xSize; x++)
             {
-                for (int y = 0; y < ySize; y++)
+                for (var y = 0; y < ySize; y++)
                 {
                     var newCell = Instantiate(_cellPrefab, _cellsParent);
 #if UNITY_EDITOR
@@ -108,12 +121,28 @@ namespace Petri.UI
 #endif
                     newCell.Initialize(x, y);
                     newCell.gameObject.name = $"Cell {x}, {y}";
-                    newCell.SetBackgroundColor(_normalCellColor);
+                    newCell.SetNormalColor();
                 }
             }
 
             _cellCalculator ??= GetComponentInChildren<GridLayoutCellCalculator>();
             _cellCalculator.UpdateSizes();
+        }
+
+        private void UpdateCellsColor()
+        {
+            var (xSize,ySize) = SizeConfiguration.GetSize();
+            var darkCellColor = _normalCellColor * 0.9f;
+            darkCellColor.a = 1f;
+
+            for (var x = 0; x < xSize; x++)
+            {
+                for (var y = 0; y < ySize; y++)
+                {
+                    _cells[x, y].SetDefaultBackgroundColor(y % 2 == 0 ? _normalCellColor : darkCellColor);
+                    _cells[x, y].SetNormalColor();
+                }
+            }
         }
         
         private static bool CanReagentBePlacedAt(FormulaCellView cell, ReagentView reagentView)
@@ -137,20 +166,15 @@ namespace Petri.UI
             _cells[x, y].SetReagentToCell(reagent);
         }
 
-        public void UpdateConnections(ConnectionTypes[,] connectionMatrix)
+        public void UpdateConnections(ConnectionTypes[,] connectionMatrix, FormulaNodeColors[,] colorMatrix)
         {
             for (var x = 0; x < connectionMatrix.GetLength(0); x++)
             {
                 for (var y = 0; y < connectionMatrix.GetLength(1); y++)
                 {
-                    SetConnection(x, y, connectionMatrix[x, y]);
+                    _cells[x, y].SetConnection(connectionMatrix[x, y], colorMatrix[x, y]);
                 }
             }
-        }
-
-        private void SetConnection(int x, int y, ConnectionTypes connectionType)
-        {
-            _cells[x, y].SetConnection(connectionType);
         }
 
         public void SetChainsTails(List<Vector2Int?> modelChainTails)

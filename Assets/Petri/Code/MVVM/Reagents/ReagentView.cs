@@ -14,7 +14,7 @@ namespace Petri.UI
 {
     public class ReagentView : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IDragTarget
     {
-        [SerializeField] private SDFQuad _background;
+        [SerializeField] private Image _background;
         [SerializeField] private Image _icon;
         [SerializeField] private TextMeshProUGUI _parameter;
         [SerializeField] private TextMeshProUGUI _name;

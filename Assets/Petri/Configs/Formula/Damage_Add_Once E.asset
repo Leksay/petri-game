@@ -16,7 +16,7 @@ MonoBehaviour:
     Name: Acid 452-E
     ApplyType: 0
     OperationType: 1
-    ReagentGroup: 4
+    ReagentGroup: 5
     Property: 0
     Icon: {fileID: 21300000, guid: aa7e7e4ae08adda4ebb267feb8749737, type: 3}
     Value: 0.5

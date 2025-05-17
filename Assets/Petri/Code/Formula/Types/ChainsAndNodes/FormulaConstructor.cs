@@ -19,6 +19,7 @@ namespace Petri.Formula
         private FormulaChain[] _chains;
         private ConnectionTypes[,] _connectionMatrix;
         private FormulaNode[,] _nodeMatrix;
+        private FormulaNodeColors[,] _colorsMatrix;
 
         public FormulaConstructor CreateFormula(int sizeX, int sizeY)
         {
@@ -57,20 +58,31 @@ namespace Petri.Formula
 
         private void RecalculateConnectionMatrix()
         {
+            _colorsMatrix = new FormulaNodeColors[_sizeX, _sizeY];
             var newArray = new ConnectionTypes[_sizeX, _sizeY];
+
             foreach (var chain in _chains)
             {
+                if (chain.AllNodes.Count == 0)
+                {
+                    continue;
+                }
+
                 foreach (var node in chain.AllNodes)
                 {
                     var connectionTypes = ConnectionTypes.None;
+
                     foreach (var inputNode in node.Input)
                     {
-                        connectionTypes |= inputNode.Reagent.ConnectionType.Inverse();
+                        var inverseConnection = inputNode.Reagent.ConnectionType.Inverse(); 
+                        connectionTypes |= inverseConnection;
+                        SetNodeColor(node.Position, inputNode.Reagent, inverseConnection);
                     }
 
                     if (node.Output != null)
                     {
-                        newArray[node.Position.x, node.Position.y] |= connectionTypes;
+                        connectionTypes |= node.Reagent.ConnectionType;
+                        SetNodeColor(node.Position, node.Reagent, node.Reagent.ConnectionType);
                     }
 
                     newArray[node.Position.x, node.Position.y] = connectionTypes;
@@ -79,7 +91,7 @@ namespace Petri.Formula
             
             _connectionMatrix = newArray;
         }
-        
+
         private void RecalculateChains()
         {
             _nodeMatrix = new FormulaNode[_sizeX, _sizeY];
@@ -224,6 +236,8 @@ namespace Petri.Formula
 
             return matrix;
         }
+
+        public FormulaNodeColors[,] GetColorMatrix() => _colorsMatrix;
         
         public List<Vector2Int?> GetChainsTails() => _chains.Select(x => x.EndsInOtherChain ? null : x.EndNode?.Position).ToList();
         
@@ -248,6 +262,49 @@ namespace Petri.Formula
             }
 
             return _nodeMatrix[position.x, position.y] = new FormulaNode(_reagentsMatrix[position.x, position.y], position);
+        }
+
+        public FormulaNodeColors GetColorNode(Vector2Int position)
+        {
+            if (position.x < 0 || position.y < 0 || position.x >= _sizeX || position.y >= _sizeY)
+            {
+                Debug.LogError($"Can't get node with {position}");
+                return default;
+            }
+
+            var node = _colorsMatrix[position.x, position.y];
+            if (node == default)
+            {
+                node = new FormulaNodeColors();
+            }
+
+            return _colorsMatrix[position.x, position.y] = node;
+        }
+
+        private void SetNodeColor(Vector2Int nodePosition, Reagent reagent, ConnectionTypes inverseConnection)
+        {
+            var color = GetColorNode(nodePosition);
+            var group = reagent.Modifier.Parameter.ReagentGroup;
+
+            switch (inverseConnection)
+            {
+                case ConnectionTypes.Up:
+                    color.Up = group;
+                    break;
+                case ConnectionTypes.Right:
+                    color.Right = group;
+                    break;
+                case ConnectionTypes.Down:
+                    color.Down = group;
+                    break;
+                case ConnectionTypes.Left:
+                    color.Left = group;
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(inverseConnection), inverseConnection, null);
+            }
+
+            _colorsMatrix[nodePosition.x, nodePosition.y] = color;
         }
     }
 }

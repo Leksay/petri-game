@@ -43,5 +43,7 @@ namespace Petri.Models
         }
 
         public bool[,] GetChainedCellsMatrix() => _formulaConstructor.GetChainedCellsMatrix();
+
+        public FormulaNodeColors[,] GetColorMatrix() => _formulaConstructor.GetColorMatrix();
     }
 }

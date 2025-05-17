@@ -249,7 +249,7 @@ MonoBehaviour:
   m_shadowGradationRange: {x: 0.25, y: 0.75}
   m_shadowGradationOffset: {x: 0, y: 0}
   m_shadowGradationShape: 0
-  m_fillColor: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
+  m_fillColor: {r: 1, g: 1, b: 1, a: 1}
   m_activeImageType: 0
   m_sprite: {fileID: 0}
   m_texture: {fileID: 0}

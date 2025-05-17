@@ -11,7 +11,7 @@ namespace Petri.UI
     {
         public ReactiveProperty<ReagentView> EnteredDragObject { get; } = new();
         public ReactiveCommand Cleared { get; } = new();
-        
+
         [field: SerializeField] public int CellX { get; private set; }
         [field: SerializeField] public int CellY { get; private set; }
         [field: SerializeField] public bool HasReagent { get; private set; }
@@ -23,10 +23,10 @@ namespace Petri.UI
         [SerializeField] private Button _clearButton;
 
         [Header("Connections")]
-        [SerializeField] private GameObject _upConnection;
-        [SerializeField] private GameObject _downConnection;
-        [SerializeField] private GameObject _leftConnection;
-        [SerializeField] private GameObject _rightConnection;
+        [SerializeField] private Image _upConnection;
+        [SerializeField] private Image _downConnection;
+        [SerializeField] private Image _leftConnection;
+        [SerializeField] private Image _rightConnection;
 
         private Color _backgroundColor;
         private ReagentConnectionView _reagentConnectionView;
@@ -50,7 +50,7 @@ namespace Petri.UI
             CellX = cellX;
             CellY = cellY;
         }
-        
+
         public void OnPointerEnter(PointerEventData eventData)
         {
             var reagent = eventData.pointerDrag?.GetComponent<ReagentView>();
@@ -58,7 +58,7 @@ namespace Petri.UI
             {
                 return;
             }
-            
+
             EnteredDragObject.Value = reagent;
         }
 
@@ -70,8 +70,11 @@ namespace Petri.UI
         public void SetBackgroundColor(Color cellColor)
         {
             _background.color = cellColor;
-            _backgroundColor = cellColor;
         }
+
+        public void SetNormalColor() => _background.color = _backgroundColor;
+
+        public void SetDefaultBackgroundColor(Color color) => _backgroundColor = color;
 
         public void SetConnectionView(bool isActive) => _reagentConnectionView.gameObject.SetActive(isActive);
 
@@ -93,12 +96,17 @@ namespace Petri.UI
             }
         }
 
-        public void SetConnection(ConnectionTypes connectionType)
+        public void SetConnection(ConnectionTypes connectionType, FormulaNodeColors colors)
         {
-            _rightConnection.SetActive((connectionType & ConnectionTypes.Right) > 0);
-            _leftConnection.SetActive((connectionType & ConnectionTypes.Left) > 0);
-            _upConnection.SetActive((connectionType & ConnectionTypes.Up) > 0);
-            _downConnection.SetActive((connectionType & ConnectionTypes.Down) > 0);
+            _upConnection.gameObject.SetActive((connectionType & ConnectionTypes.Up) > 0);
+            _downConnection.gameObject.SetActive((connectionType & ConnectionTypes.Down) > 0);
+            _leftConnection.gameObject.SetActive((connectionType & ConnectionTypes.Left) > 0);
+            _rightConnection.gameObject.SetActive((connectionType & ConnectionTypes.Right) > 0);
+
+            _upConnection.color = colors.Up.GetColor();
+            _downConnection.color = colors.Down.GetColor();
+            _leftConnection.color = colors.Left.GetColor();
+            _rightConnection.color = colors.Right.GetColor();
         }
 
         public void SetChainStatus(bool isCellInChain)
@@ -108,7 +116,7 @@ namespace Petri.UI
                 _outOfChainImage.gameObject.SetActive(true);
                 return;
             }
-            
+
             _outOfChainImage.gameObject.SetActive(false);
         }
     }

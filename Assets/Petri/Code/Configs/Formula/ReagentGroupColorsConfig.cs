@@ -40,6 +40,7 @@ namespace Petri.Configs
                 ReagentGroup.GroupD => Instance.GroupD,
                 ReagentGroup.GroupE => Instance.GroupE,
                 ReagentGroup.GroupF => Instance.GroupD,
+                ReagentGroup.None => Color.white,
                 _ => throw new System.NotImplementedException()
             };
         }

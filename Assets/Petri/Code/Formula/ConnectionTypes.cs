@@ -33,6 +33,26 @@ namespace Petri.Formula
             };
         }
 
+        public static bool IsDown(this ConnectionTypes connectionType)
+        {
+            return (connectionType & ConnectionTypes.Down) != 0;
+        }
+        
+        public static bool IsUp(this ConnectionTypes connectionType)
+        {
+            return (connectionType & ConnectionTypes.Up) != 0;
+        }
+        
+        public static bool IsLeft(this ConnectionTypes connectionType)
+        {
+            return (connectionType & ConnectionTypes.Left) != 0;
+        }
+        
+        public static bool IsRight(this ConnectionTypes connectionType)
+        {
+            return (connectionType & ConnectionTypes.Right) != 0;
+        }
+
         public static ConnectionTypes CalculateByCoords(Vector2Int start, Vector2Int end)
         {
             var x = end.x - start.x;

@@ -25,7 +25,7 @@ namespace Petri.ViewModels
             model.ReagentChanged.Subscribe(tuple =>
             {
                 view.SetReagentToCell(tuple.x, tuple.y, tuple.reagent);
-                view.UpdateConnections(model.ConnectionMatrix);
+                view.UpdateConnections(model.ConnectionMatrix, model.GetColorMatrix());
                 view.SetChainsTails(model.ChainTails);
 
                 var chainedCells = model.GetChainedCellsMatrix();
