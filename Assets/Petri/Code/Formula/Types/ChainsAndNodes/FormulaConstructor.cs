@@ -243,7 +243,7 @@ namespace Petri.Formula
 
         public FormulaNodeColors[,] GetColorMatrix() => _colorsMatrix;
         
-        public List<Vector2Int?> GetChainsTails() => _chains.Select(x => x.EndsInOtherChain ? null : x.EndNode?.Position).ToList();
+        public List<Vector2Int?> GetChainsTails() => _chains.Select(chain => chain.EndsInOtherChain || chain.EndsInBound? null : chain.EndNode?.Position).ToList();
         
         public bool IsReagentInChain(int x, int y) => IsReagentInChain(new Vector2Int(x, y));
 

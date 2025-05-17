@@ -9,6 +9,7 @@ namespace Petri.Formula
         public List<FormulaNode> AllNodes = new();
 
         public bool EndsInOtherChain => EndNode?.IsPointsToOtherChain ?? false;
+        public bool EndsInBound => EndNode?.IsBoundNode ?? false;
 
         public void Clear()
         {
