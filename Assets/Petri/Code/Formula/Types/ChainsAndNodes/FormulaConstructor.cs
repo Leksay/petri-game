@@ -140,7 +140,6 @@ namespace Petri.Formula
                     {
                         chainFinished = true;
                         chain.EndNode = currentNode;
-                        chain.EndsInOtherChain = true;
 
                         currentNode.IsPointsToOtherChain = true;
                         var nodeInChain = GetNode(nextPosition);
@@ -167,6 +166,11 @@ namespace Petri.Formula
                         reagents += "->";
                     }
                     reagents += $"{node.Reagent.Modifier.Parameter.ReagentGroup.ToString().Replace("Group", "")}";
+
+                    if (node.IsPointsToOtherChain)
+                    {
+                        break;
+                    }
                     node = node.Output;
                 }
             }
