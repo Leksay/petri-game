@@ -224,7 +224,7 @@ namespace Petri.Formula
         public List<Vector2Int?> GetChainsTails() =>
             _chains.Select(chain => chain.EndsInOtherChain || chain.EndsInBound ? null : chain.EndNode?.Position).ToList();
 
-        public bool IsReagentInChain(Vector2Int position) => _chains.Any(chain => chain.AllNodes.Any(node => node.Position == position));
+        public bool IsReagentInChain(Vector2Int position) => position.y == 0 || _chains.Any(chain => chain.AllNodes.Any(node => node.Position == position));
 
         public FormulaNode GetNode(int x, int y) => GetNode(new Vector2Int(x, y));
 
