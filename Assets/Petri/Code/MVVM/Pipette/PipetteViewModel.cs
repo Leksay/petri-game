@@ -10,16 +10,7 @@ namespace Petri.ViewModels
     {
         public PipetteViewModel(UIPipetteView view, PipetteModel model)
         {
-            view.OnReagentDropped.Subscribe(tuple =>
-            {
-                //todo:
-                //1. Check that reagent can be placed
-                //2. Place reagent
-
-                Debug.Log($"Dropped: {tuple.x}, {tuple.y} and reagent {tuple.reagentView.Payload}");
-                model.PlaceReagent(tuple.x, tuple.y, (Reagent)tuple.reagentView.Payload);
-            });
-
+            view.OnReagentDropped.Subscribe(tuple => model.PlaceReagent(tuple.x, tuple.y, (Reagent)tuple.reagentView.Payload));
             view.CellCleared.Subscribe(xy => model.RemoveReagent(xy.x, xy.y));
 
             model.ReagentChanged.Subscribe(tuple =>
@@ -34,6 +25,10 @@ namespace Petri.ViewModels
                     for (var y = 0; y < chainedCells.GetLength(1); y++)
                     {
                         view.SetCellChainStatus(x, y, chainedCells[x, y]);
+
+#if UNITY_EDITOR
+                        view.SetCellStats(x, y, model.GetCellData(x, y));
+#endif
                     }
                 }
             });

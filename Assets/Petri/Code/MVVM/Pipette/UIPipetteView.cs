@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using JfranMora.Inspector;
 using Petri.Events;
 using Petri.Formula;
@@ -17,12 +18,14 @@ namespace Petri.UI
     {
         public ReactiveCommand<(int x, int y, ReagentView reagentView)> OnReagentDropped { get; } = new();
         public ReactiveCommand<(int x, int y)> CellCleared { get; } = new();
-        
+
         [SerializeField] private Color _normalCellColor;
         [SerializeField] private Color _availableCellColor;
 
         [Header("Cells Configuration")]
-        [field: SerializeField] public PipetteSizeConfiguration SizeConfiguration { get; private set; }
+        [field: SerializeField]
+        public PipetteSizeConfiguration SizeConfiguration { get; private set; }
+
         [SerializeField] private RectTransform _cellsParent;
         [SerializeField] private FormulaCellView _cellPrefab;
 
@@ -76,7 +79,7 @@ namespace Petri.UI
                 });
             }
 
-            UpdateCellsColor(); 
+            UpdateCellsColor();
         }
 
         [Button]
@@ -92,7 +95,7 @@ namespace Petri.UI
                 CreateCells();
             }
         }
-        
+
         private void CreateCells()
         {
             while (_cellsParent.childCount > 0)
@@ -100,16 +103,16 @@ namespace Petri.UI
                 DestroyImmediate(_cellsParent.GetChild(0).gameObject);
             }
 
-            var (xSize,ySize) = SizeConfiguration.GetSize();
+            var (xSize, ySize) = SizeConfiguration.GetSize();
             _grid.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
             _grid.constraintCount = xSize;
 
             var darkCellColor = _normalCellColor * 0.9f;
             darkCellColor.a = 1f;
 
-            #if UNITY_EDITOR
+#if UNITY_EDITOR
             var prefabSettings = new ConvertToPrefabInstanceSettings();
-            #endif
+#endif
 
             for (var x = 0; x < xSize; x++)
             {
@@ -117,7 +120,8 @@ namespace Petri.UI
                 {
                     var newCell = Instantiate(_cellPrefab, _cellsParent);
 #if UNITY_EDITOR
-                    PrefabUtility.ConvertToPrefabInstance(newCell.gameObject, _cellPrefab.gameObject, prefabSettings, InteractionMode.AutomatedAction);
+                    PrefabUtility.ConvertToPrefabInstance(newCell.gameObject, _cellPrefab.gameObject, prefabSettings,
+                        InteractionMode.AutomatedAction);
 #endif
                     newCell.Initialize(x, y);
                     newCell.gameObject.name = $"Cell {x}, {y}";
@@ -131,7 +135,7 @@ namespace Petri.UI
 
         private void UpdateCellsColor()
         {
-            var (xSize,ySize) = SizeConfiguration.GetSize();
+            var (xSize, ySize) = SizeConfiguration.GetSize();
             var darkCellColor = _normalCellColor * 0.9f;
             darkCellColor.a = 1f;
 
@@ -144,7 +148,7 @@ namespace Petri.UI
                 }
             }
         }
-        
+
         private static bool CanReagentBePlacedAt(FormulaCellView cell, ReagentView reagentView)
         {
             //todo: Check if the reagent can be placed at the cell
@@ -196,5 +200,17 @@ namespace Petri.UI
         }
 
         public void SetCellChainStatus(int x, int y, bool isCellInChain) => _cells[x, y].SetChainStatus(isCellInChain);
+
+#if UNITY_EDITOR
+        public void SetCellStats(int x, int y, [CanBeNull] FormulaData cellData)
+        {
+            if (cellData == null)
+            {
+                return;
+            }
+
+            _cells[x, y].SetStats(cellData);
+        }
+#endif
     }
 }

@@ -1,6 +1,8 @@
+using System;
 using Petri.Configs;
 using Petri.Formula;
 using R3;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -28,8 +30,14 @@ namespace Petri.UI
         [SerializeField] private Image _leftConnection;
         [SerializeField] private Image _rightConnection;
 
-        private Color _backgroundColor;
+        [SerializeField] private Color _backgroundColor;
         private ReagentConnectionView _reagentConnectionView;
+
+        #if UNITY_EDITOR
+        [Header("Debug")] 
+        [SerializeField] private bool _showStats;
+        [SerializeField] private TextMeshProUGUI _damage;
+        #endif
 
         private void Awake()
         {
@@ -119,5 +127,24 @@ namespace Petri.UI
 
             _outOfChainImage.gameObject.SetActive(false);
         }
+
+#if UNITY_EDITOR
+
+        private void OnValidate()
+        {
+            _damage.gameObject.SetActive(_showStats);
+        }
+
+        public void SetStats(FormulaData cellData)
+        {
+            if (!_showStats)
+            {
+                return;
+            }
+
+            _damage.gameObject.SetActive(true);
+            _damage.text = cellData.Damage.ToString();
+        }
+#endif
     }
 }

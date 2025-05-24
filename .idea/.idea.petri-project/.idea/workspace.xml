@@ -5,685 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab593ab-79e3-43a5-b829-846176407129" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/Formula.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/Formula/FormulaModifierConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/Formula/FormulaModifierConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/Formula/ReagentGroupColorsConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/Formula/ReagentGroupColorsConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/LevelConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/LevelConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Constants.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Constants/Constants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Constants/Constants.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Bacterias.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Bacterias/BacteriaIsDead.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Bacterias/BacteriaIsDead.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Bacterias/ReproductiveTimer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Bacterias/ReproductiveTimer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Bacterias/WantToReproduce.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Bacterias/WantToReproduce.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Movement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Movement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias/BacteriasDamageSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias/BacteriasDamageSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias/BacteriasDeathSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias/BacteriasDeathSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias/BacteriasMovementSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias/BacteriasMovementSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias/BacteriasReproductiveSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias/BacteriasReproductiveSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias/BacteriasSpawnSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Pipette.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Pointer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Pointer/PipettePointerSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Pointer/PipettePointerSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/ConnectionTypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/ConnectionTypes.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/FormulaApplier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/FormulaApplier.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Reagent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Reagent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Test.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Test/TestFormulaCreator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Test/TestFormulaCreator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaChain.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaChain.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaConstructor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaConstructor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaNode.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaEnums.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaEnums.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaParameter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaParameter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/PipetteConfigurationExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/PipetteConfigurationExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ReagentGroup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ReagentGroup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Helpers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Helpers/BacteriasExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Helpers/BacteriasExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Helpers/Vector3Utils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Helpers/Vector3Utils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure/ConfigProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure/ConfigProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure/GameInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure/GameInitializer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Jobs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Jobs/DamageCheckJob.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Jobs/DamageCheckJob.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteViewModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Reagents/ReagentConnectionView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Reagents/ReagentConnectionView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Reagents/ReagentsBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Reagents/ReagentsBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Views.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Views/PointerView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Views/PointerView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Rendering.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Rendering/BacteriaRenderer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Rendering/BacteriaRenderer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Services/ConfigFetcher/CsvToJsonConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Services/ConfigFetcher/CsvToJsonConverter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types/CustomUpdate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types/CustomUpdate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types/Events/Events.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types/Events/Events/StartGameEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types/Events/Events/StartGameEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types/SceneLoading.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types/SceneLoading/GameSceneLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types/SceneLoading/GameSceneLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types/SharedData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/Types/SharedData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/DragAndDropProcessor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/DragAndDropProcessor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/Events.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/Events/DragEndEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/Events/DragEndEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/Events/DragStartEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/Events/DragStartEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/Interfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/Interfaces/IDragTarget.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/Interfaces/IDragTarget.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/DragAndDrop/Types.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/FlexGrid/FlexibleGridLayout.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/FlexGrid/FlexibleGridLayout.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/FlexGrid/GridLayoutCellCalculator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/FlexGrid/GridLayoutCellCalculator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/HoverColorChange.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/HoverColorChange.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/MainMenuButtonsListener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Code/UI/MainMenuButtonsListener.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Petri/Configs/Bacterias.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.petri-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.petri-project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Lighting Settings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Lighting Settings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Bacteries.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Bacteries/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Bacteries/Textures/red.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Bacteries/Textures/red.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Configs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Configs/BacteriasConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/BacteriasConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Configs/BacteriasConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/BacteriasConfig.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Configs/Division.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/Division.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Configs/Division.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/Division.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Configs/DropConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/DropConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Configs/DropConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Configs/DropConfig.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Bacteria.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Bacterias/Bacteria.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Bacteria.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Bacterias/Bacteria.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Drop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Drop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Drop.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Drop.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Lifetime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Lifetime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Lifetime.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Lifetime.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Petri.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Pipette.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/Components/Petri.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/Components/Pipette.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Bacterias.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Bacterias/BacteriasInitSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Bacterias/BacteriasInitSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Bacterias/BacteriasSpawnSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Drops.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/CreateDropSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Drops/CreateDropSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/CreateDropSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Drops/CreateDropSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/DropFallSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Drops/DropFallSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/DropFallSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Drops/DropFallSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/DropLifetimeSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Drops/DropLifetimeSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/Drops/DropLifetimeSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Drops/DropLifetimeSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/PetriMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Pipette/PipetteMovementSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/ECS/System/PetriMovementSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/ECS/System/Pipette/PipetteMovementSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Game.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Game.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/Configuration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure/Configuration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/Configuration.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure/Configuration.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/SceneData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure/SceneData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/SceneData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure/SceneData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/ServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure/ServiceLocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Infrostructure/ServiceLocator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Infrostructure/ServiceLocator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Pools.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Pools.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Pools/DropPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Pools/DropPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Pools/DropPool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Pools/DropPool.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Pools/GameObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Pools/GameObjectPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Pools/GameObjectPool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Pools/GameObjectPool.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Pools/Pool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Pools/Pool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Pools/Pool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Pools/Pool.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Services.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Services.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Services/IService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Services/IService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Services/IService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Services/IService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Services/Input.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/DesktopInputService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Services/Input/DesktopInputService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/DesktopInputService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Services/Input/DesktopInputService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/IInputService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Services/Input/IInputService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Services/Input/IInputService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Services/Input/IInputService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Views.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Views/DropView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Views/DropView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Views/DropView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Views/DropView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Views/PetriView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Views/PetriView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Views/PetriView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Views/PetriView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Views/PipetteView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Code/Views/PipetteView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Configs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Configs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Configs/Bacterias.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Configs/Bacterias.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Configs/Bacterias.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Configs/DropsConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Configs/DropsConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Configs/DropsConfig.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Configs/DropsConfig.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Constants.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Constants.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Constants/New Text Color Gradient.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Constants/New Text Color Gradient.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Constants/New Text Color Gradient.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Constants/New Text Color Gradient.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/Drop.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/Drop.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/DropMasked.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/DropMasked.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/Models/drop.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/Models/drop.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/Shader Graphs_DropMasked.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/Shader Graphs_DropMasked.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/drop.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Drop/drop.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-Black SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Black SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-Black SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Black SDF.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-Black.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Black.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-Bold SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Bold SDF.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-Bold.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Bold.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-SemiBold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-SemiBold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-SemiBold SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-SemiBold SDF.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Fonts/NunitoSans_10pt_SemiExpanded-SemiBold.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-SemiBold.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/Polystyrene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/Polystyrene.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/Polystyrene.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/Polystyrene.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/rough-polystyrene_albedo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/rough-polystyrene_albedo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/rough-polystyrene_albedo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/rough-polystyrene_albedo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/rough-polystyrene_ao.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/rough-polystyrene_ao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/rough-polystyrene_ao.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/rough-polystyrene_ao.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/rough-polystyrene_height.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/rough-polystyrene_height.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/rough-polystyrene_height.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/rough-polystyrene_height.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/rough-polystyrene_metallic.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/rough-polystyrene_metallic.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/rough-polystyrene_metallic.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/rough-polystyrene_metallic.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/rough-polystyrene_normal-ogl.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/rough-polystyrene_normal-ogl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/Polystyrene/rough-polystyrene_normal-ogl.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/Polystyrene/rough-polystyrene_normal-ogl.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/White Tile.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/White Tile.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/White Tile.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/White Tile.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/base-white-tile_albedo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/base-white-tile_albedo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/base-white-tile_albedo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/base-white-tile_albedo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/base-white-tile_ao.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/base-white-tile_ao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/base-white-tile_ao.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/base-white-tile_ao.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/base-white-tile_height.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/base-white-tile_height.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/base-white-tile_height.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/base-white-tile_height.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/base-white-tile_metallic.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/base-white-tile_metallic.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/base-white-tile_metallic.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/base-white-tile_metallic.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/base-white-tile_normal-ogl.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/base-white-tile_normal-ogl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Materials/White Tile/base-white-tile_normal-ogl.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Materials/White Tile/base-white-tile_normal-ogl.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Animations/Drop.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Animations/Drop.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Animations/Pipette.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Animations/Pipette.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Models/Petri Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Models/Petri Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Models/Petri Model.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Models/Petri Model.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Models/Petri Model2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Petri/Models/Petri Model2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/MenuScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/MenuScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene/LightingData.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene/ReflectionProbe-0.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene/ReflectionProbe-1.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Scenes/PetriScene/ReflectionProbe-1.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/PetriScene/ReflectionProbe-1.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/Animations/Button.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/Animations/Button.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainMenu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainMenu/MainMenuBackground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainMenu/MainMenuBackground.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainMenu/capsules.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainMenu/capsules.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainMenu/gear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainMenu/gear.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/trend-down-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/trend-down-02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_b.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_c.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_d.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_e.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/Icons/type_f.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/genome.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/Genomes/genome.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/main_menu_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/main_menu_background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/rounded_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/rounded_14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/rounded_30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/UI/MainWindow/rounded_30.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/FreeLabAssets/Materials/M_Sky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/FreeLabAssets/Materials/M_Sky.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/GlassShader/GlassShader.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/GlassShader/GlassShader.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1/ReflectionProbe-1.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1/ReflectionProbe-1.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1Settings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example1Settings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2/ReflectionProbe-1.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Example2/ReflectionProbe-1.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Materials/MetaballMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Materials/MetaballMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Materials/StandardMetaballMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Materials/StandardMetaballMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/3.skp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/3.skp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials/3-Burnt Sienna.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials/3-Burnt Sienna.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials/3-Gray3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials/3-Gray3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials/3-[Burnt Sienna].mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials/3-[Burnt Sienna].mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials/3-[Gray3].mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials/3-[Gray3].mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials/lambert1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Materials/lambert1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Oltar.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Oltar.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Models/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/BouncingBall.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/BouncingBall.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/Container.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/Container.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/CubeGrid.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/CubeGrid.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/MetaBall.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/MetaBall.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/MetaLight.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/MetaLight.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/RotateCamera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Scripts/RotateCamera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Shaders/MarchingCubesComputeShader.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Shaders/MarchingCubesComputeShader.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Shaders/MetaballShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Shaders/MetaballShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/Noise.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/Noise.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metaballs Mesh/Assets/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete).meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Animation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Animation/FallingLiquidAnimation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Animation/FallingLiquidAnimation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Animation/GroundedLiquidAnimation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Animation/GroundedLiquidAnimation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Animation/Liquid.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Animation/Liquid.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Gifs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Gifs/metaballs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Gifs/metaballs.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Gifs/new_metaballs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Gifs/new_metaballs.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/LICENSE.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Materials/Floor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Materials/Floor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Materials/Liquid.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Materials/Liquid.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Materials/blob.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Materials/blob.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/MetaBalls.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/MetaBalls.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Prefabs/Floor.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Prefabs/Floor.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Prefabs/Liquid.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Prefabs/Liquid.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Prefabs/Original McBlob.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Prefabs/Original McBlob.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Scripts/MCBlob.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Scripts/MCBlob.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Scripts/OnLiquidGrounded.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Scripts/OnLiquidGrounded.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Scripts/OriginalMCBlob.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/Metabals (to delete)/Scripts/OriginalMCBlob.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/Formula/FormulaApplier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/FormulaApplier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaChain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaChain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaConstructor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaConstructor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaEnums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaEnums.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaParameter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaParameter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Cells/FormulaCellView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Cells/FormulaCellView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/PipetteViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/UIPipetteView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/UIPipetteView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once A.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once A.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once B.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once B.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once C.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once C.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once D.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once D.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once E.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once E.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once F.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Configs/Formula/Damage_Add_Once F.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Black SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Black SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-SemiBold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Fonts/NunitoSans_10pt_SemiExpanded-SemiBold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Prefabs/UI/FormulaCell/FormulaCell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Prefabs/UI/FormulaCell/FormulaCell.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Petri/Scenes/FormulaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Petri/Scenes/FormulaScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -698,29 +43,32 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13c0c460649d4ce49f991e2c222fa63546ae00/7f/2a45db93/ValueTuple`3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2431722e3e3e41d78b6718bb39ab91111df400/1c/1d832f95/RenderParams.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2431722e3e3e41d78b6718bb39ab91111df400/29/27dfb565/Vector2Int.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2431722e3e3e41d78b6718bb39ab91111df400/47/d0aa78c1/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2431722e3e3e41d78b6718bb39ab91111df400/58/449b6c31/Object.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2431722e3e3e41d78b6718bb39ab91111df400/bb/7bafd49b/EnumButtonsAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2431722e3e3e41d78b6718bb39ab91111df400/d9/6ed95f28/Graphics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7878115525854df7993c2f050b5b11541fa200/e0/bac192b0/ScrollView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7ae67de414c34a0397e0ee5801c5da5a10fc00/4a/45baa511/EnumerableSorter`2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7ae67de414c34a0397e0ee5801c5da5a10fc00/7a/9be8a973/OrderedEnumerable`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7ae67de414c34a0397e0ee5801c5da5a10fc00/be/75aded96/Enumerable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7ae67de414c34a0397e0ee5801c5da5a10fc00/e6/26b952b8/EnumerableSorter`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95707308f6f3498991e9df8902fe97ba9b8e00/4a/4bcdafe0/ConvertToPrefabInstanceSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a6479622a9314fcba3eb70d4da8dd46092e00/1e/88ffa418/ObservableSubscribeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a6479622a9314fcba3eb70d4da8dd46092e00/c3/298b45b8/ReactiveCommand`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a6479622a9314fcba3eb70d4da8dd46092e00/ef/a57162b1/ReactiveCommand`2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d303c2bf72cd4cec95665b89c457d265d2b8ef3ed6da17cd4f85587c2f9de7/System.Linq.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/da6a1787df247a0274ec8fc4840f41df092ee13874f55f87a9db568acab1bd2/System.Reflection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaEnums.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/FormulaParameter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@506b3deb0041/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Editor/UGUI/UI/LayoutElementEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Runtime/UGUI/EventSystem/EventData/PointerEventData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Runtime/UGUI/EventSystem/EventInterfaces.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Runtime/UGUI/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Runtime/UGUI/UI/Core/Toggle.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -739,9 +87,10 @@
     "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "XThreadsFramesViewSplitterKey": "0.32454363",
+    "XThreadsFramesViewSplitterKey": "0.4361055",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -789,10 +138,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="35832">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11108">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="35832" />
+      <option name="pid" value="11108" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
         <list>
@@ -839,7 +188,14 @@
       <workItem from="1746865699921" duration="3426000" />
       <workItem from="1746870192199" duration="6226000" />
       <workItem from="1747339589765" duration="7279000" />
-      <workItem from="1747481021478" duration="5951000" />
+      <workItem from="1747481021478" duration="14116000" />
+      <workItem from="1747566521434" duration="1327000" />
+      <workItem from="1747588666218" duration="1632000" />
+      <workItem from="1747863969715" duration="2064000" />
+      <workItem from="1747948900688" duration="4212000" />
+      <workItem from="1748038913959" duration="134000" />
+      <workItem from="1748073521602" duration="607000" />
+      <workItem from="1748090564524" duration="8727000" />
     </task>
     <servers />
   </component>
@@ -898,38 +254,15 @@
           </properties>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Petri/Code/MVVM/Pipette/UIPipetteView.cs</url>
-          <line>140</line>
-          <properties documentPath="Q:\PETRI\petri-project\petri-project\Assets\Petri\Code\MVVM\Pipette\UIPipetteView.cs" containingFunctionPresentation="Method 'UpdateConnections'">
-            <startOffsets>
-              <option value="4881" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4882" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Petri/Code/Formula/Types/ChainsAndNodes/FormulaConstructor.cs</url>
-          <line>50</line>
-          <properties documentPath="Q:\PETRI\petri-project\petri-project\Assets\Petri\Code\Formula\Types\ChainsAndNodes\FormulaConstructor.cs" containingFunctionPresentation="Method 'RemoveReagent'">
-            <startOffsets>
-              <option value="1466" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1467" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="Type#Petri.Formula.FormulaChain" memberName="EndNode" />
         <PinnedItemInfo parentTag="Type#Petri.Formula.FormulaParameter" memberName="ReagentGroup" />
+        <PinnedItemInfo parentTag="Type#Petri.Formula.FormulaNode" memberName="ChainState" />
         <PinnedItemInfo parentTag="Type#Petri.Configs.FormulaModifierConfig" memberName="Parameter" />
+        <PinnedItemInfo parentTag="Type#UnityEngine.GameObject" memberName="activeInHierarchy" />
         <PinnedItemInfo parentTag="Type#Petri.Formula.FormulaNode" memberName="Position" />
       </pinned-members>
     </pin-to-top-manager>

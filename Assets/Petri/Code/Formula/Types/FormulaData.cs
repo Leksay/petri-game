@@ -1,22 +1,24 @@
-using System.Collections.Generic;
-using Petri.Configs;
-
 namespace Petri.Formula
 {
     public class FormulaData
     {
+        public static FormulaData Empty { get; } = new();
+
         public float Damage;
         public float Size;
-        
-        private readonly List<FormulaModifierConfig> _modifiers = new();
 
-        public void AddModifier(FormulaModifierConfig modifier)
+        public override string ToString() => $"Damage: {Damage}, Size: {Size}";
+
+        public FormulaData Copy() => new(){Damage = this.Damage, Size = this.Size};
+
+        public void Clear()
         {
-            _modifiers.Add(modifier);
+            Damage = 0;
+            Size = 0;
         }
     }
 
-    public enum FormulaProperty
+    public enum FormulaPropertyType
     {
         Damage,
         Size,
