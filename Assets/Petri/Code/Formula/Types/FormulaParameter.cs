@@ -9,7 +9,7 @@ namespace Petri.Formula
         public FormulaModifierApplyType ApplyType;
         public FormulaOperationType OperationType;
         public ReagentGroup ReagentGroup;
-        public FormulaProperty Property;
+        public FormulaPropertyType _propertyType;
         public Sprite Icon;
         public float Value;
     }

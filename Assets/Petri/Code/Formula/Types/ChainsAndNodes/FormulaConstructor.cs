@@ -12,7 +12,6 @@ namespace Petri.Formula
         // Modifier = List of Parameters
         // Parameter = ApplyType + OperationType + FormulaData's Property + Value
 
-        private FormulaData _formulaData;
         private int _sizeX, _sizeY;
 
         private Reagent[,] _reagentsMatrix;
@@ -23,7 +22,6 @@ namespace Petri.Formula
 
         public FormulaConstructor CreateFormula(int sizeX, int sizeY)
         {
-            _formulaData = new FormulaData();
             _reagentsMatrix = new Reagent[sizeX, sizeY];
             _connectionMatrix = new ConnectionTypes[sizeX, sizeY];
             _nodeMatrix = new FormulaNode[sizeX, sizeY];
@@ -44,16 +42,21 @@ namespace Petri.Formula
         public void AddReagent(Reagent reagent, int x, int y)
         {
             _reagentsMatrix[x, y] = reagent;
-            RecalculateChains();
-            RecalculateConnectionMatrix();
+            UpdateChains();
         }
 
         public void RemoveReagent(int x, int y)
         {
             _reagentsMatrix[x, y] = null;
             _connectionMatrix[x, y] = ConnectionTypes.None;
+            UpdateChains();
+        }
+
+        private void UpdateChains()
+        {
             RecalculateChains();
             RecalculateConnectionMatrix();
+            CalculateValues();
         }
 
         private void RecalculateConnectionMatrix()
@@ -72,14 +75,14 @@ namespace Petri.Formula
                 {
                     var connectionTypes = ConnectionTypes.None;
 
-                    foreach (var inputNode in node.Input)
+                    foreach (var inputNode in node.InputNodes)
                     {
-                        var inverseConnection = inputNode.Reagent.ConnectionType.Inverse(); 
+                        var inverseConnection = inputNode.Reagent.ConnectionType.Inverse();
                         connectionTypes |= inverseConnection;
                         SetNodeColor(node.Position, inputNode.Reagent, inverseConnection);
                     }
 
-                    if (node.Output != null)
+                    if (node.OutputNode != null)
                     {
                         connectionTypes |= node.Reagent.ConnectionType;
                         SetNodeColor(node.Position, node.Reagent, node.Reagent.ConnectionType);
@@ -88,7 +91,7 @@ namespace Petri.Formula
                     newArray[node.Position.x, node.Position.y] = connectionTypes;
                 }
             }
-            
+
             _connectionMatrix = newArray;
         }
 
@@ -121,7 +124,7 @@ namespace Petri.Formula
                         continue;
                     }
 
-                    if(nextPosition == currentNode.Position)
+                    if (nextPosition == currentNode.Position)
                     {
                         chainFinished = true;
                         chain.EndNode = currentNode;
@@ -132,8 +135,8 @@ namespace Petri.Formula
                     var nextNode = GetNode(nextPosition);
                     currentPosition = nextPosition;
 
-                    nextNode.Input.Add(currentNode);
-                    currentNode.Output = nextNode;
+                    nextNode.InputNodes.Add(currentNode);
+                    currentNode.OutputNode = nextNode;
 
                     var nextNodeInChain = IsReagentInChain(nextPosition);
                     if (nextNodeInChain)
@@ -143,7 +146,7 @@ namespace Petri.Formula
 
                         currentNode.IsPointsToOtherChain = true;
                         var nodeInChain = GetNode(nextPosition);
-                        nodeInChain.Input.Add(currentNode);
+                        nodeInChain.InputNodes.Add(currentNode);
 
                         continue;
                     }
@@ -152,31 +155,6 @@ namespace Petri.Formula
                     chain.AllNodes.Add(currentNode);
                 }
             }
-
-#if UNITY_EDITOR
-            var node = _chains[0].StartNode;
-            var reagents = string.Empty;
-
-            if (node != null)
-            {
-                while (node != null)
-                {
-                    if (node.Input.Count > 0)
-                    {
-                        reagents += "->";
-                    }
-                    reagents += $"{node.Reagent.Modifier.Parameter.ReagentGroup.ToString().Replace("Group", "")}";
-
-                    if (node.IsPointsToOtherChain)
-                    {
-                        break;
-                    }
-                    node = node.Output;
-                }
-            }
-
-            Debug.Log(reagents);
-#endif
         }
 
         private bool TryGetNextReagent(int x, int y, out Vector2Int nextReagentXY)
@@ -242,12 +220,11 @@ namespace Petri.Formula
         }
 
         public FormulaNodeColors[,] GetColorMatrix() => _colorsMatrix;
-        
-        public List<Vector2Int?> GetChainsTails() => _chains.Select(chain => chain.EndsInOtherChain || chain.EndsInBound? null : chain.EndNode?.Position).ToList();
-        
-        public bool IsReagentInChain(int x, int y) => IsReagentInChain(new Vector2Int(x, y));
 
-        public bool IsReagentInChain(Vector2Int position) => _chains.Any(chain => chain.AllNodes.Any(node => node.Position == position));
+        public List<Vector2Int?> GetChainsTails() =>
+            _chains.Select(chain => chain.EndsInOtherChain || chain.EndsInBound ? null : chain.EndNode?.Position).ToList();
+
+        public bool IsReagentInChain(Vector2Int position) => position.y == 0 || _chains.Any(chain => chain.AllNodes.Any(node => node.Position == position));
 
         public FormulaNode GetNode(int x, int y) => GetNode(new Vector2Int(x, y));
 
@@ -309,6 +286,36 @@ namespace Petri.Formula
             }
 
             _colorsMatrix[nodePosition.x, nodePosition.y] = color;
+        }
+
+        private void CalculateValues()
+        {
+            foreach (var chain in _chains)
+            {
+                if (chain.EndNode?.IsPointsToOtherChain ?? true)
+                {
+                    continue;
+                }
+
+                CalculateChainRecursive(chain.EndNode);
+            }
+        }
+
+        private static FormulaData CalculateChainRecursive(FormulaNode startNode)
+        {
+            startNode.ChainState.ApplyParameter(startNode.Parameter);
+
+            if (startNode.InputNodes.Count == 0)
+            {
+                return startNode.ChainState;
+            }
+            
+            foreach (var inputNode in startNode.InputNodes)
+            {
+                startNode.ChainState.AddAll(CalculateChainRecursive(inputNode));
+            }
+
+            return startNode.ChainState;
         }
     }
 }

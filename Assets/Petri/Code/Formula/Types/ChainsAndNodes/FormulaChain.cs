@@ -14,7 +14,10 @@ namespace Petri.Formula
         public void Clear()
         {
             StartNode = EndNode = null;
+            AllNodes.ForEach(node => node.ChainState?.Clear());
             AllNodes.Clear();
         }
+
+        public bool ContainsNode(FormulaNode node) => AllNodes?.Contains(node) ?? false;
     }
 }

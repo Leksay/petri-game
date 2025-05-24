@@ -5,10 +5,13 @@ namespace Petri.Formula
 {
     public class FormulaNode
     {
-        public FormulaNode Output;
-        public HashSet<FormulaNode> Input;
+        public FormulaNode OutputNode;
+        public HashSet<FormulaNode> InputNodes;
         public Reagent Reagent;
         public Vector2Int Position;
+        public FormulaData ChainState;
+
+        public FormulaParameter Parameter => Reagent?.Modifier.Parameter;
 
         /// <summary>
         /// if next node is bound node
@@ -16,14 +19,12 @@ namespace Petri.Formula
         public bool IsBoundNode;
         public bool IsPointsToOtherChain;
 
-        //todo: здесь должны быть разные данные пипетки
-        public float Value;
-
         public FormulaNode(Reagent reagent, Vector2Int position)
         {
-            Input = new ();
+            InputNodes = new ();
             Reagent = reagent;
             Position = position;
+            ChainState = new FormulaData();
         }
     }
 }

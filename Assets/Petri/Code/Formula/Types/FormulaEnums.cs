@@ -7,9 +7,9 @@ namespace Petri.Formula
     {
         Once,
         OnceNext,
-        OnceBefore,
+        // OnceBefore,
         AllAfter,
-        AllBefore,
+        // AllBefore,
     }
     
     /// <summary>
@@ -37,5 +37,10 @@ namespace Petri.Formula
         Big_4x8,
         //5x8
         Large_5x8
+    }
+
+    public static class FormulaModifierApplyTypeExtensions
+    {
+        public static bool IsAffectNextNode(this FormulaModifierApplyType type) => type is FormulaModifierApplyType.OnceNext or FormulaModifierApplyType.AllAfter;
     }
 }

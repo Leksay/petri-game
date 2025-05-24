@@ -17,6 +17,6 @@ MonoBehaviour:
     ApplyType: 0
     OperationType: 1
     ReagentGroup: 4
-    Property: 0
+    _propertyType: 0
     Icon: {fileID: 21300000, guid: 49d513140e6574d489d5558ff6023b55, type: 3}
-    Value: 0.5
+    Value: 2

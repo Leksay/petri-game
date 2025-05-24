@@ -6,10 +6,10 @@ namespace Petri.Formula
 {
     public static class FormulaApplier
     {
-        private static readonly Dictionary<FormulaProperty, FieldInfo> FormulaFields = new()
+        private static readonly Dictionary<FormulaPropertyType, FieldInfo> FormulaFields = new()
         {
-            [FormulaProperty.Damage] = typeof(FormulaData).GetField(nameof(FormulaData.Damage)),
-            [FormulaProperty.Size] = typeof(FormulaData).GetField(nameof(FormulaData.Size)),
+            [FormulaPropertyType.Damage] = typeof(FormulaData).GetField(nameof(FormulaData.Damage)),
+            [FormulaPropertyType.Size] = typeof(FormulaData).GetField(nameof(FormulaData.Size)),
         };
 
         private static readonly Dictionary<FormulaOperationType, Func<float, float, float>> Operations = new()
@@ -22,11 +22,22 @@ namespace Petri.Formula
 
         public static void ApplyParameter(this FormulaData formulaData, FormulaParameter parameter)
         {
-            var field = FormulaFields[parameter.Property];
+            var field = FormulaFields[parameter._propertyType];
             var currentValue = (float)field.GetValue(formulaData);
             var resultValue = Operations[parameter.OperationType].Invoke(currentValue, parameter.Value);
             
             field.SetValue(formulaData, resultValue);
+        }
+
+        public static void AddAll(this FormulaData baseData, FormulaData additionalData)
+        {
+            foreach (var (_, fieldInfo) in FormulaFields)
+            {
+                var baseValue = (float)fieldInfo.GetValue(baseData);
+                var additionalValue = (float)fieldInfo.GetValue(additionalData);
+
+                fieldInfo.SetValue(baseData, baseValue + additionalValue);
+            }
         }
     }
 }
