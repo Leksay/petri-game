@@ -33,11 +33,10 @@ namespace Petri.UI
         [SerializeField] private Color _backgroundColor;
         private ReagentConnectionView _reagentConnectionView;
 
-        #if UNITY_EDITOR
         [Header("Debug")] 
-        [SerializeField] private bool _showStats;
         [SerializeField] private TextMeshProUGUI _damage;
-        #endif
+        [SerializeField] private TextMeshProUGUI _multiplier;
+        private bool _showStats;
 
         private void Awake()
         {
@@ -70,15 +69,9 @@ namespace Petri.UI
             EnteredDragObject.Value = reagent;
         }
 
-        public void OnPointerExit(PointerEventData eventData)
-        {
-            EnteredDragObject.Value = null;
-        }
+        public void OnPointerExit(PointerEventData eventData) => EnteredDragObject.Value = null;
 
-        public void SetBackgroundColor(Color cellColor)
-        {
-            _background.color = cellColor;
-        }
+        public void SetBackgroundColor(Color cellColor) => _background.color = cellColor;
 
         public void SetNormalColor() => _background.color = _backgroundColor;
 
@@ -134,17 +127,24 @@ namespace Petri.UI
         {
             _damage.gameObject.SetActive(_showStats);
         }
-
-        public void SetStats(FormulaData cellData)
+        
+#endif
+        public void SetStats(NodeData cellData)
         {
             if (!_showStats)
             {
                 return;
             }
 
-            _damage.gameObject.SetActive(true);
             _damage.text = cellData.Damage.ToString();
+            _multiplier.text = cellData.Multipliers[FormulaPropertyType.Damage].ToString("#");
         }
-#endif
+
+        public void SetStatsDebug(bool showCellStats)
+        {
+            _showStats = showCellStats;
+            _multiplier.gameObject.SetActive(showCellStats);
+            _damage.gameObject.SetActive(showCellStats);
+        }
     }
 }

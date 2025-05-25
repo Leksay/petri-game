@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fddbdf73d3ce4d19bcc5853d323a04d3, type: 3}
-  m_Name: Damage_Add_Once F
+  m_Name: Damage_Add_Once (C)
   m_EditorClassIdentifier: 
   Parameter:
-    Name: Acid 452-F
+    Name: Acid 452-C
     ApplyType: 0
     OperationType: 1
-    ReagentGroup: 6
+    ReagentGroup: 3
     _propertyType: 0
-    Icon: {fileID: 21300000, guid: 9146ea5cf4225a84db9b3790b8524e96, type: 3}
+    Icon: {fileID: 21300000, guid: d8129a2503654ae43b6d8db4155bcea3, type: 3}
     Value: 2

@@ -38,6 +38,10 @@ namespace Petri.UI
 
         private FormulaCellView[,] _cells;
 
+        #if UNITY_EDITOR
+        [SerializeField] private bool _showCellStats;
+        #endif
+
         private void Start()
         {
             _eventBus = ServiceLocator.Get<EventBus>();
@@ -126,11 +130,22 @@ namespace Petri.UI
                     newCell.Initialize(x, y);
                     newCell.gameObject.name = $"Cell {x}, {y}";
                     newCell.SetNormalColor();
+                    
                 }
             }
 
             _cellCalculator ??= GetComponentInChildren<GridLayoutCellCalculator>();
             _cellCalculator.UpdateSizes();
+        }
+
+        private void OnValidate()
+        {
+            #if UNITY_EDITOR
+            foreach (var cell in GetComponentsInChildren<FormulaCellView>())
+            {
+                cell.SetStatsDebug(_showCellStats);
+            }
+            #endif
         }
 
         private void UpdateCellsColor()
@@ -201,8 +216,7 @@ namespace Petri.UI
 
         public void SetCellChainStatus(int x, int y, bool isCellInChain) => _cells[x, y].SetChainStatus(isCellInChain);
 
-#if UNITY_EDITOR
-        public void SetCellStats(int x, int y, [CanBeNull] FormulaData cellData)
+        public void SetCellStats(int x, int y, [CanBeNull] NodeData cellData)
         {
             if (cellData == null)
             {
@@ -211,6 +225,5 @@ namespace Petri.UI
 
             _cells[x, y].SetStats(cellData);
         }
-#endif
     }
 }

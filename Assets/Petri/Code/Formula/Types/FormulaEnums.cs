@@ -19,9 +19,7 @@ namespace Petri.Formula
     {
         None,
         Add,
-        Subtract,
         Multiply,
-        Divide,
     }
 
     /// <summary>
@@ -42,5 +40,6 @@ namespace Petri.Formula
     public static class FormulaModifierApplyTypeExtensions
     {
         public static bool IsAffectNextNode(this FormulaModifierApplyType type) => type is FormulaModifierApplyType.OnceNext or FormulaModifierApplyType.AllAfter;
+        public static bool IsAffectNextNode(this FormulaModifierApplyType? type) => type is FormulaModifierApplyType.OnceNext or FormulaModifierApplyType.AllAfter;
     }
 }

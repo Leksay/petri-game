@@ -56,6 +56,7 @@ namespace Petri.Formula
         {
             RecalculateChains();
             RecalculateConnectionMatrix();
+            CalculateMultipliers();
             CalculateValues();
         }
 
@@ -64,13 +65,8 @@ namespace Petri.Formula
             _colorsMatrix = new FormulaNodeColors[_sizeX, _sizeY];
             var newArray = new ConnectionTypes[_sizeX, _sizeY];
 
-            foreach (var chain in _chains)
+            foreach (var chain in _chains.Where(c => c.AllNodes.Count > 0))
             {
-                if (chain.AllNodes.Count == 0)
-                {
-                    continue;
-                }
-
                 foreach (var node in chain.AllNodes)
                 {
                     var connectionTypes = ConnectionTypes.None;
@@ -301,21 +297,86 @@ namespace Petri.Formula
             }
         }
 
-        private static FormulaData CalculateChainRecursive(FormulaNode startNode)
+        private void CalculateMultipliers()
         {
-            startNode.ChainState.ApplyParameter(startNode.Parameter);
+            foreach (var chain in _chains)
+            {
+                if (chain.EndNode?.IsPointsToOtherChain ?? true)
+                {
+                    continue;
+                }
+
+                CalculateChainRecursive(chain.EndNode);
+                CalculateMultipliersRecursive(chain.EndNode);
+            }
+
+            // foreach (var chain in _chains.Where(c => c.EndNode != null))
+            // {
+            //     const int allAfterDepth = 100;
+            //     
+            //     var currentNode = chain.StartNode.OutputNode;
+            //     var previousNode = chain.StartNode;
+            //     while (currentNode != null)
+            //     {
+            //         if (previousNode.Parameter.OperationType == FormulaOperationType.Multiply)
+            //         {
+            //             var multiplier = (previousNode.Parameter._propertyType, previousNode.Parameter.Value);
+            //             var depth = previousNode.ApplyType == FormulaModifierApplyType.OnceNext ? 1 : allAfterDepth;
+            //             AddMultiplierToChain(currentNode, multiplier, depth);
+            //         }
+            //         
+            //         previousNode = currentNode;
+            //         currentNode = currentNode.OutputNode;
+            //     }
+            // }
+        }
+
+        // private static void AddMultiplierToChain(FormulaNode startNode, (FormulaPropertyType type, float value) multiplier ,int depth)
+        // {
+        //     var currentNode = startNode;
+        //     var nodesLeft = depth;
+        //     while (currentNode != null && nodesLeft > 0)
+        //     {
+        //         currentNode.Data.MultipliersQueue.Enqueue(multiplier);
+        //         currentNode.Data.Multipliers[multiplier.type] += multiplier.value;
+        //         
+        //         nodesLeft--;
+        //         currentNode = currentNode.OutputNode;
+        //     }
+        // }
+
+        private static NodeData CalculateChainRecursive(FormulaNode startNode)
+        {
+            startNode.Data.ApplyParameter(startNode.Parameter);
 
             if (startNode.InputNodes.Count == 0)
             {
-                return startNode.ChainState;
+                return startNode.Data;
             }
             
             foreach (var inputNode in startNode.InputNodes)
             {
-                startNode.ChainState.AddAll(CalculateChainRecursive(inputNode));
+                startNode.Data.AddAll(CalculateChainRecursive(inputNode));
             }
 
-            return startNode.ChainState;
+            return startNode.Data;
+        }
+
+        private static NodeData CalculateMultipliersRecursive(FormulaNode startNode)
+        {
+            startNode.Data.ApplyParameter(startNode.Parameter);
+
+            if (startNode.InputNodes.Count == 0)
+            {
+                return startNode.Data;
+            }
+
+            foreach (var inputNode in startNode.InputNodes)
+            {
+                startNode.Data.AddAll(CalculateChainRecursive(inputNode));
+            }
+
+            return startNode.Data;
         }
     }
 }

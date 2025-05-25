@@ -14,7 +14,7 @@ namespace Petri.Formula
         public void Clear()
         {
             StartNode = EndNode = null;
-            AllNodes.ForEach(node => node.ChainState?.Clear());
+            AllNodes.ForEach(node => node.Data?.Clear());
             AllNodes.Clear();
         }
 

@@ -9,10 +9,11 @@ namespace Petri.Formula
         public HashSet<FormulaNode> InputNodes;
         public Reagent Reagent;
         public Vector2Int Position;
-        public FormulaData ChainState;
+        public NodeData Data;
 
         public FormulaParameter Parameter => Reagent?.Modifier.Parameter;
-
+        public FormulaModifierApplyType ApplyType => Reagent.Modifier.Parameter.ApplyType;
+        
         /// <summary>
         /// if next node is bound node
         /// </summary>
@@ -24,7 +25,7 @@ namespace Petri.Formula
             InputNodes = new ();
             Reagent = reagent;
             Position = position;
-            ChainState = new FormulaData();
+            Data = new NodeData();
         }
     }
 }
